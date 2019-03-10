@@ -18,6 +18,7 @@ module.exports = {
     "no-underscore-dangle": ["error", { "allow": ["_embedded"] }],
     "react/no-did-mount-set-state": 0,
     "react/no-did-update-set-state": 0,
+    "no-use-before-define": ["error", { "variables": false }],
   },
   env: {
     jest: true,
